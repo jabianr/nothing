@@ -1,0 +1,14 @@
+ELK Elasticsearch Logstash and Kibana
+Logstash
+Log management can consume too much time and effort when it comes to multiple servers with many applications running. The situation is worst when there are multiple log files to analyze. 
+For this reason it is needed a tool to centralize the logging management for the servers. There is an instrument that perform this action in an excellent way called Logstash. 
+Logstash is an open source tool designed to manage all of your server logs in a centralized location.
+Logstash work as a data pipeline where data from multiple servers and systems is processed, it can collect inputs from different sources such as log files, log management systems an many more tools.
+Elasticsearch
+Elasticsearch does real-time data analysis from different data sources. It is scalable, and it does full text search.
+Kibana
+Kibana is a web application designed to visualize data in Elasticsearch. It allows to search data (in this case, logs) and visualize it in various ways (bar graph, pie charts, and other graph types). Visualizations can be organized in dashboards for quick access to information.
+
+Prometheus
+Prometheus is an open source, metrics-based monitoring system.
+Prometheus does one thing and it does it well. It has a simple yet powerful data model and a query language that lets you analyze how your applications and infrastructure are performing. It does not try to solve problems outside of the metrics space, leaving those to other more appropriate tools.
